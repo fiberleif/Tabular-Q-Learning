@@ -111,8 +111,8 @@ class QLEnvironment(Environment):
 
     def step(self, action):
         next_state = self.get_transition(self.current_state, action)
-        self.current_state = next_state
         reward = self.get_reward(self.current_state, action)
+        self.current_state = next_state
         is_terminal = 0
         if next_state in self.goal_state_space:
             is_terminal = 1
