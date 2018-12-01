@@ -42,7 +42,6 @@ def train(maze_env, value_file, q_value_file, policy_file, num_episodes, max_epi
             q_value_function[hashing_state_action] = 0
 
     # train
-    # num_episodes = 20
     for _ in range(num_episodes):
         # print(q_value_function)
         current_length = 0
