@@ -55,5 +55,5 @@ python code/q_learning.py <maze_input> <value_file> <q_value_file> <policy file>
 
 A simple example (tinymaze):
 ```bash
-python code/q_learning.py --maze_input ./env/tiny_maze.txt --value_file ql_value_output.txt --q_value_file ql_q_value_output.txt --policy_file ql_policy_output.txt --num_episode 1000 --max_episode_length 20 --learning_rate 0.8 --discount_factor 0.9 epsilon 0.05
+python code/q_learning.py --maze_input ./env/tiny_maze.txt --value_file ql_value_output.txt --q_value_file ql_q_value_output.txt --policy_file ql_policy_output.txt --num_episode 1000 --max_episode_length 20 --learning_rate 0.8 --discount_factor 0.9 --epsilon 0.05
 ```
