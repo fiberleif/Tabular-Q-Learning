@@ -16,7 +16,7 @@ def parse_arguments():
                         help='path to output the q_value function')
     parser.add_argument('--policy_file', type=str, default='./ql_policy_file.txt',
                         help ='path to output the optimal policy')
-    parser.add_argument('--num_episodes', type=int, default=2000,
+    parser.add_argument('--num_episode', type=int, default=2000,
                         help='the number of train episodes')
     parser.add_argument('--max_episode_length', type=int, default=10000,
                         help='the maximum of the length of an episode')
@@ -32,7 +32,7 @@ def parse_arguments():
     return args
 
 
-def train(maze_env, value_file, q_value_file, policy_file, num_episodes, max_episode_length, learning_rate,
+def train(maze_env, value_file, q_value_file, policy_file, num_episode, max_episode_length, learning_rate,
           discount_factor, epsilon, **kwargs):
 
     # create value function and q value function
@@ -49,7 +49,7 @@ def train(maze_env, value_file, q_value_file, policy_file, num_episodes, max_epi
     start = time.time()
     episodes_length = []
     print("[Info]: Start to train q value function.")
-    for _ in range(num_episodes):
+    for _ in range(num_episode):
         current_length = 0
         is_terminal = 0
         state = maze_env.reset()
