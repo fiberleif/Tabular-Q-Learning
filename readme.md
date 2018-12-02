@@ -39,7 +39,7 @@ python code/value_iteration.py ./env/tiny_maze.txt vi_value_output.txt vi_q_valu
 
 ##  Q-Learning
 ```bash
-python code/q_learning.py <maze_input> <value_file> <q_value_file> <policy file> <num_epoch> <discount_factor>
+python code/q_learning.py <maze_input> <value_file> <q_value_file> <policy file> <num_episode> <learning_rate> <discount_factor> <epsilon>
 ```
 6 command-line arguments are described in detail below:
 * **mazeinput**:  path to the environment input.txt.
