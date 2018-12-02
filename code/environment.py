@@ -4,21 +4,21 @@ import argparse
 # base class of environment
 class Environment(object):
     def __init__(self, env_path):
+        print("[Info]: Start to create maze env component from raw environment txt.")
         self.env_path = env_path
         self._get_raw_env()
         self._distil_raw_env()
+        print("[Info]: Finish creating maze env component from raw environment txt.")
 
     def _get_raw_env(self):
         # read raw environment from txt file
         # input: nothing
         # return: raw_env from List class
         fo = open(self.env_path, "r")
-        print("[Info]: Start to read from raw environment txt.")
         self.raw_env = [line.strip("\n") for line in fo.readlines()]
         assert (len(self.raw_env) >= 0)
         self.row_num = len(self.raw_env)
         self.col_num = len(self.raw_env[0])
-        print("[Info]: Finish reading from raw environment txt.")
 
     def _distil_raw_env(self):
         # extract state space from raw environment. (remove obstacle locations)
@@ -46,10 +46,10 @@ class Environment(object):
         # return next state when taking action over state
         # check
         if state not in self.state_space:
-            print("Error: Input state is illegal!")
+            print("[Error]: Input state is illegal!")
             raise ValueError
         if action not in self.action_space:
-            print("Error: Input action is illegal!")
+            print("[Error]: Input action is illegal!")
             raise ValueError
 
         # if state is from goal state space
@@ -82,10 +82,10 @@ class Environment(object):
         # return reward when taking action over state
         # check
         if state not in self.state_space:
-            print("Error: Input state is illegal!")
+            print("[Error]: Input state is illegal!")
             raise ValueError
         if action not in self.action_space:
-            print("Error: Input action is illegal!")
+            print("[Error]: Input action is illegal!")
             raise ValueError
         # compute reward
         if state in self.goal_state_space:

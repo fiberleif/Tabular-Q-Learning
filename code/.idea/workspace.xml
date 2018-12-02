@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38d6386c-d564-46c6-a65d-5a384a2b5ffa" name="Default Changelist" comment="" />
+    <list default="true" id="38d6386c-d564-46c6-a65d-5a384a2b5ffa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/policy_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/q_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q_value_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/q_value_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/value_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value_iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/value_iteration.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,29 +36,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="60" />
-          <entry key="py" value="3842" />
+          <entry key="Python Console" value="145" />
+          <entry key="py" value="5048" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3902" />
+          <entry key="Python" value="5193" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="10" column="85" lean-forward="true" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
               <folding>
-                <marker date="1543687339995" expanded="true" signature="72:3534" ph="..." />
-                <marker date="1543687339995" expanded="true" signature="3601:3661" ph="..." />
-                <marker date="1543687339995" expanded="true" signature="3601:3774" ph="..." />
-                <marker date="1543687339995" expanded="true" signature="4453:5077" ph="..." />
+                <marker date="1543727626039" expanded="true" signature="72:3583" ph="..." />
+                <marker date="1543727626039" expanded="true" signature="3650:3710" ph="..." />
+                <marker date="1543727626039" expanded="true" signature="3650:3823" ph="..." />
+                <marker date="1543727626039" expanded="true" signature="4502:5126" ph="..." />
               </folding>
             </state>
           </provider>
@@ -60,25 +68,25 @@
         <entry file="file://$PROJECT_DIR$/value_iteration.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1543683897172" expanded="true" signature="1158:1163" ph="..." />
-                <marker date="1543683897172" expanded="true" signature="3573:3578" ph="..." />
-                <marker date="1543683897172" expanded="true" signature="3883:4030" ph="..." />
+                <marker date="1543734883790" expanded="true" signature="1330:1335" ph="..." />
+                <marker date="1543734883790" expanded="true" signature="4580:4585" ph="..." />
+                <marker date="1543734883790" expanded="true" signature="5282:5542" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/q_learning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+            <state relative-caret-position="425">
+              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1543687274593" expanded="true" signature="4317:4643" ph="..." />
+                <marker date="1543735823946" expanded="true" signature="5167:5493" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,23 +107,27 @@
       <find>print</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/env.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/environment.py" />
         <option value="$PROJECT_DIR$/value_iteration.py" />
         <option value="$PROJECT_DIR$/q_learning.py" />
-        <option value="$PROJECT_DIR$/environment.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="202" />
     <option name="y" value="176" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -172,7 +184,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17386723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32981783" />
+      <window_info anchor="bottom" id="Python Console" weight="0.24161074" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,39 +232,39 @@
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="85" lean-forward="true" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+          <folding>
+            <marker date="1543727626039" expanded="true" signature="72:3583" ph="..." />
+            <marker date="1543727626039" expanded="true" signature="3650:3710" ph="..." />
+            <marker date="1543727626039" expanded="true" signature="3650:3823" ph="..." />
+            <marker date="1543727626039" expanded="true" signature="4502:5126" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/value_iteration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543683897172" expanded="true" signature="1158:1163" ph="..." />
-            <marker date="1543683897172" expanded="true" signature="3573:3578" ph="..." />
-            <marker date="1543683897172" expanded="true" signature="3883:4030" ph="..." />
+            <marker date="1543734883790" expanded="true" signature="1330:1335" ph="..." />
+            <marker date="1543734883790" expanded="true" signature="4580:4585" ph="..." />
+            <marker date="1543734883790" expanded="true" signature="5282:5542" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q_learning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+        <state relative-caret-position="425">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1543687274593" expanded="true" signature="4317:4643" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-          <folding>
-            <marker date="1543687339995" expanded="true" signature="72:3534" ph="..." />
-            <marker date="1543687339995" expanded="true" signature="3601:3661" ph="..." />
-            <marker date="1543687339995" expanded="true" signature="3601:3774" ph="..." />
-            <marker date="1543687339995" expanded="true" signature="4453:5077" ph="..." />
+            <marker date="1543735823946" expanded="true" signature="5167:5493" ph="..." />
           </folding>
         </state>
       </provider>
