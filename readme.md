@@ -6,7 +6,7 @@ The files in env directory describle structure of the maze.  Any maze is rectang
 .*..*..G
 S......*
 ```
-The environment comprises four key parts:
+The environment comprises four key parts as follows:
 ### state space
 The state is described by a tuple (x,y) where x is the row and y is the column (zero-indexed). obstacle locations are not including.
 
