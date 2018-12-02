@@ -25,7 +25,7 @@ The goal of the agent is to take as few steps as possible to get to the goal sta
 ```bash
 python code/value_iteration.py <maze_input> <value_file> <q_value_file> <policy file> <num_epoch> <discount_factor>
 ```
-6 command-line arguments are described in detail below:
+command-line arguments are described in detail below:
 * **mazeinput**:  path to the environment input.txt.
 * **value_file**: path to output the values $V(s)$.
 * **q_value_file**: path to output the q-values $Q(s, a)$.
@@ -42,7 +42,7 @@ python code/value_iteration.py --maze_input ./env/tiny_maze.txt --value_file vi_
 ```bash
 python code/q_learning.py <maze_input> <value_file> <q_value_file> <policy file> <num_episode> <learning_rate> <discount_factor> <epsilon>
 ```
-6 command-line arguments are described in detail below:
+command-line arguments are described in detail below:
 * **mazeinput**:  path to the environment input.txt.
 * **value_file**: path to output the values $V(s)$.
 * **q_value_file**: path to output the q-values $Q(s, a)$.
